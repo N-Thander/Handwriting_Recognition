@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handwriting Recognition</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <h1>Handwriting Recognition</h1>
+    <form id="uploadForm">
+        <input type="file" name="file" id="fileInput" accept="image/*" required />
+        <button type="submit">Predict</button>
+    </form>
+    <p id="result"></p>
+    <script src="scripts/api.js"></script>
+</body>
+</html>
